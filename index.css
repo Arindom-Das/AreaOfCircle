@@ -1,0 +1,98 @@
+
+
+html{
+    height:rem;
+    width:rem;
+    background-image:url(https://miro.medium.com/max/1400/1*S8UogculWFLr3lVdLn05MA.jpeg);
+    background-size: cover ;
+    background-repeat:no-repeat;
+    background-position: center;
+    align-items: center;
+}
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width:100%;
+  padding: 0 10px;
+}
+#what{
+    height: 3cm;
+    width: 33cm;
+    padding: 5%;
+    border-style:groove;
+    border-color: rgb(39, 214, 214);
+    border-radius: 2mm;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.681);
+    backdrop-filter: opacity(30rem);
+    background: rgba( 123, 68, 68, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(242, 242, 244, 0.931);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 16px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#lamel{
+    font-size: 19mm;
+    color: rgb(226, 255, 98);
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    text-shadow: 0  0.1em rgb(41, 20, 236);
+    padding-bottom: 0%;
+    
+
+}
+
+#input{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom:16px;
+    height: 3px;
+    width: 10cm;
+    color: rgb(44, 53, 188);
+    border-radius: 20px;
+    border: 0;
+    outline:auto rgb(17, 10, 231);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    transform: all 200ms;
+   
+}
+#submt{
+    
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 0.5px solid #2915de;
+  border-radius: 22px;
+  color: #110dd8;
+  background: #ffffffb3;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  line-height: 10px;
+  padding: 12px 12px;
+  text-align:center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  margin: 4px;
+  
+  transform: all 200ms;
+}
+#submt:hover{
+  
+  color: #8a0de3;
+  background: #ffffffb3;
+  box-shadow: -1px 0rem 10px 5px rgba(225, 217, 213, 0.887);
+  
+}
+  
+  
+ 
+
+ 

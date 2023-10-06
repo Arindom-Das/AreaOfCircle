@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<title>Rough</title>
+<body>
+    <div id="what">
+    <label id="lamel">Enter the Value of Radius:   </label>
+    <input placeholder="  Type the Value of Radius " type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="inp" id="input">
+    
+    <!-- The JavaScript code snippet you provided utilizes regular expressions to perform the desired input restriction. 
+        Let's break it down:
+
+1.  `/[^0-9.]/g`- This regular expression matches any character that is not a digit (0-9) or a decimal point (.), globally (g) throughout the input string.
+
+2.  `.replace(/[^0-9.]/g, '')`- This replaces all matched characters with an empty string, effectively removing them from the input.
+
+3.  `(\..*)\.`- This regular expression captures a decimal point followed by any number of characters (.*) and another decimal point. The parentheses capture the decimal point and the subsequent characters for later use.
+
+4.  `.replace(/(\..*)\./g, '$1')`- This replaces the captured pattern with the captured decimal point and subsequent characters ('$1'), effectively removing the extra decimal points while preserving the valid decimal point.
+
+By using this code snippet in an HTML input element's  `oninput`  event, any non-numeric or non-decimal characters will be automatically removed, and multiple decimal points will be prevented from being entered. -->
+    
+    <button type="button"id="submt">Calculate</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
