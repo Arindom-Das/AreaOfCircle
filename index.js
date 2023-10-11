@@ -1,37 +1,3 @@
-// let x;
-// x=2;
-// console.log(x+3);
-// let username = window.prompt("Who's your daddy ? ");
-// console.log(username);
-// let usernme;
-// document.getElementById("submt").onclick = function(){
-
-//     usernme=document.getElementById("input").value;
-//     console.log(usernme);
-//     document.getElementById("lamel").innerHTML="Hello "+usernme; 
-    
-// }
-
-// let x="34.23549"; //x=34.23549;
-// console.log(typeof x);
-
-// /* 
-
-// Convert to String
-
-// y=String(x);
-// y=x.toString();
-
-// console.log(typeof y);
-
-// */
-
-// //let y=parseFloat(x);
-
-// y=x.toFixed(2);
-// console.log(y);
-
-
 
 document.getElementById("submt").onclick = function(){
         let area;
