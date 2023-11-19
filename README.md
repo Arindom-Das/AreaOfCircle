@@ -1,8 +1,11 @@
 # Circle Area Calculator
 
-<h4> TO SEE THE WORKING PROJECT CLICK ON THIS LINK :</h4>🔎 https://3-areaofcircle.netlify.app/
 
 This simple web application allows users to calculate the area of a circle by providing a radius value. The result is displayed on the page, and the input field and submit button are removed for a clean presentation.
+
+
+<h4> TO SEE THE WORKING PROJECT CLICK ON THIS LINK :</h4>🔎 https://3-areaofcircle.netlify.app/
+
 
 ## Table of Contents
 
